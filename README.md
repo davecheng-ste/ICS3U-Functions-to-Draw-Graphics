@@ -6,13 +6,20 @@ Here are examples of Pygame graphics at the different achievement levels. Study 
 
 **Function**: A block of organized, reusable code that performs a specific task. It groups a set of statements so they can be run more than once in a program.
 
-**Parameter**: A parameter is a variable in a function definition. It's a placeholder for the actual value (known as the *argument*) that will be passed to the function when it's called. Parameters are listed inside the parentheses in the function definition.
+**Parameter**: A parameter is a variable in a function definition. It's a placeholder for the actual value that will be passed to the function when it's called. Parameters are listed inside the parentheses in the function definition.
 
 **Argument**: An argument is the actual value that is passed to a function when it is called. It corresponds to the parameter defined in the function. Arguments are passed inside the parentheses when calling the function.
 
-**Return Value**: The return value is the value that a function sends back to the caller after it completes its task. It is specified using the `return` statement in the function definition.
+**Return Value**: The return value is what a function sends back after it completes its task. It is specified using the `return` statement in the function definition.
 
 **Docstrings**: A specific type of comment that is used to describe Python functions, methods, and modules. Short for *documentation strings*. See more on how to write docstrings [here](https://github.com/STE-Technology/ICS3U-Docstrings).
+
+Command | What does it do?
+--|--
+```def function_name(parameter1, parameter2):``` | Defines a function called `function_name` with two parameters.
+```function_name(123, 456)``` | Calls `function_name` with values `123` and `456` as arguments.
+
+<br><br>
 
 ## Notes on Style
 In my examples, note the following examples of proper programming style:
@@ -20,9 +27,7 @@ In my examples, note the following examples of proper programming style:
 - Functions begin with a [docstring](https://github.com/STE-Technology/ICS3U-Docstrings) comment to clearly define purpose and usage.
 - Two line spaces are used *before* and *after* a function definition. This helps clearly define logical paragraphs, i.e., what is part of the function, and what is not.
 
-
-
-
+<br><br>
 
 ## Examples
 ### Level 1
