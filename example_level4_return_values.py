@@ -147,12 +147,12 @@ while running:
 
 
     # Draw a church, 200 pixels wide
-    draw_church(400, 300, 200, WHITE)
+    draw_church(400, 300, 220, WHITE)
 
     # For debugging, we can output the calculated height of this 200 pixel-wide
     # church to the console by assigning its return value to a variable:
     #
-    # church_height = draw_church(400, 300, 200, WHITE)
+    # church_height = draw_church(400, 300, 220, WHITE)
     # print(f"DEBUG: Drawing church at (400, 300) with height = {church_height}")
 
 
