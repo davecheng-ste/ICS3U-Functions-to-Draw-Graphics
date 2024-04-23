@@ -31,15 +31,14 @@ def draw_rectangle(x_top_left, y_top_left, width, color=WHITE):
     """
     Draws a rectangle.
 
-    Parameteres:
+    Parameters:
         x_top_left (int): x-coordinate of the top-left corner of the rectangle.
         y_top_left (int): y-coordinate of the top-left corner of the rectangle.
         width (int): Width of the rectangle in pixels.
         color (tuple, optional): RGB colour of the rectangle. Default is WHITE.
 
     Returns:
-        height (int): Height of the rectangle in pixels.
-        
+        height (int): Height of the rectangle in pixels.  
     """
     # Define the height of the rectangle based on specified width
     height = int(width // 2)
